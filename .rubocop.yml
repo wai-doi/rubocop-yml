@@ -1,0 +1,113 @@
+AllCops:
+  Exclude:
+    - "bin/**/*"
+    - "db/schema.rb"
+    - "log/**/*"
+    - "node_modules/**/*"
+    - "public/**/*"
+    - "tmp/**/*"
+    - "vendor/**/*"
+  NewCops: enable
+  SuggestExtensions: false
+
+# Bundler
+
+Bundler/GemComment:
+  OnlyFor: [version_specifiers]
+
+Bundler/OrderedGems:
+  TreatCommentsAsGroupSeparators: false
+
+# Layout
+
+Layout/CaseIndentation:
+  EnforcedStyle: end
+
+Layout/ClassStructure:
+  Enabled: true
+
+Layout/EndAlignment:
+  EnforcedStyleAlignWith: variable
+
+Layout/FirstArgumentIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstArrayElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/HeredocArgumentClosingParenthesis:
+  Enabled: true
+
+Layout/MultilineMethodCallIndentation:
+  EnforcedStyle: indented
+
+Layout/LineLength:
+  Enabled: false
+
+# Lint
+
+Lint/AmbiguousBlockAssociation:
+  Exclude:
+    - "spec/**/*"
+
+Lint/AssignmentInCondition:
+  AllowSafeAssignment: false
+
+# Metrics
+
+Metrics:
+  Enabled: false
+
+# Style
+
+Style/BlockDelimiters:
+  EnforcedStyle: semantic
+
+Style/DateTime:
+  Enabled: true
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+
+Style/FloatDivision:
+  EnforcedStyle: fdiv
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: consistent
+
+Style/InvertibleUnlessCondition:
+  Enabled: true
+
+Style/Lambda:
+  EnforcedStyle: literal
+
+Style/MethodCalledOnDoEndBlock:
+  Enabled: true
+
+Style/MultilineBlockChain:
+  Enabled: false
+
+Style/MultilineMethodSignature:
+  Enabled: true
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    "%i": "()"
+    "%I": "()"
+    "%w": "()"
+    "%W": "()"
+
+Style/ReturnNil:
+  Enabled: true
+
+Style/StringMethods:
+  Enabled: true
+
+Style/TrailingCommaInBlockArgs:
+  Enabled: true
