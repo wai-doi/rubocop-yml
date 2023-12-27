@@ -1,3 +1,6 @@
+require:
+  - rubocop-performance
+
 AllCops:
   Exclude:
     - "bin/**/*"
@@ -111,3 +114,11 @@ Style/StringMethods:
 
 Style/TrailingCommaInBlockArgs:
   Enabled: true
+
+# Performance
+
+Performance/IoReadlines:
+  Enabled: true
+
+Performance/RedundantMerge:
+  MaxKeyValuePairs: 1
