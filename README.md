@@ -2,6 +2,17 @@
 
 ## Usage
 
+Add the RuboCop gems in your `Gemfile`.
+
+```rb
+# Gemfile
+
+group :development do
+  gem 'rubocop', require: false
+  gem 'rubocop-performance', require: false
+end
+```
+
 Write the `inherit_from` and URL in the `.rubocop.yml` as follow:
 
 ```yaml
