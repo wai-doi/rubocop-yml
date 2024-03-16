@@ -1,5 +1,6 @@
 require:
   - rubocop-performance
+  - rubocop-rails
 
 AllCops:
   Exclude:
@@ -122,3 +123,17 @@ Performance/IoReadlines:
 
 Performance/RedundantMerge:
   MaxKeyValuePairs: 1
+
+# Rails
+
+Rails/DefaultScope:
+  Enabled: true
+
+Rails/HasManyOrHasOneDependent:
+  Enabled: false
+
+Rails/ReversibleMigrationMethodDefinition:
+  Enabled: true
+
+Rails/SaveBang:
+  Enabled: true
