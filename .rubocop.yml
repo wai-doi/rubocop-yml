@@ -132,6 +132,9 @@ Rails/DefaultScope:
 Rails/HasManyOrHasOneDependent:
   Enabled: false
 
+Rails/I18nLocaleTexts:
+  Enabled: false
+
 Rails/ReversibleMigrationMethodDefinition:
   Enabled: true
 
