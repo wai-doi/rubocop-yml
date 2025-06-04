@@ -85,6 +85,9 @@ Style/FloatDivision:
 Style/HashSyntax:
   EnforcedShorthandSyntax: consistent
 
+Style/IfUnlessModifier:
+  Enabled: false
+
 Style/InvertibleUnlessCondition:
   Enabled: true
 
