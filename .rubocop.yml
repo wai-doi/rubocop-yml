@@ -119,6 +119,11 @@ Style/ReturnNil:
 Style/StringMethods:
   Enabled: true
 
+Style/SymbolProc:
+  AllowedMethods:
+    # `create_table :users do |t| t.timestamps end` is preferred over `create_table :users, &timestamps`
+    - create_table
+
 Style/TrailingCommaInBlockArgs:
   Enabled: true
 
