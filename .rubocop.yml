@@ -148,6 +148,9 @@ Rails/HasManyOrHasOneDependent:
 Rails/I18nLocaleTexts:
   Enabled: false
 
+Rails/RakeEnvironment:
+  Enabled: false
+
 Rails/ReversibleMigrationMethodDefinition:
   Enabled: true
 
