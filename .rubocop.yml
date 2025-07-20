@@ -159,6 +159,9 @@ Rails/SaveBang:
 
 # RSpec
 
+RSpec/ExampleLength:
+  Enabled: false
+
 RSpec/ExpectChange:
   Enabled: false
 
