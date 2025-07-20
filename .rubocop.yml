@@ -159,5 +159,8 @@ Rails/SaveBang:
 
 # RSpec
 
+RSpec/ExpectChange:
+  Enabled: false
+
 RSpec/MultipleExpectations:
   Enabled: false
