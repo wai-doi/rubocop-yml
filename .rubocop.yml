@@ -170,3 +170,6 @@ RSpec/ExpectChange:
 
 RSpec/MultipleExpectations:
   Enabled: false
+
+RSpec/NamedSubject:
+  Enabled: false
