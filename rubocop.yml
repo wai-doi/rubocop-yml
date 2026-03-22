@@ -157,6 +157,9 @@ Rails/ReversibleMigrationMethodDefinition:
 Rails/SaveBang:
   Enabled: true
 
+Rails/SkipsModelValidations:
+  Enabled: false
+
 # RSpec
 
 RSpec/ContextWording:
